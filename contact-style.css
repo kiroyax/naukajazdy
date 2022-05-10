@@ -1,0 +1,94 @@
+.Contact-section {
+    max-width: 50em;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.contact-list {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.5em;
+}
+
+.grid-col-span2-contact {
+    grid-column: span 2;
+}
+
+.contact-item {
+    text-align: center;
+    border: rgba(0, 0, 0, 0) dotted 2px;
+    padding: 1em;
+    transition: 0.5s;
+}
+
+.contact-item:hover{
+    border: #F0803C dotted 2px;
+}
+
+.contact-image {
+    width: 50px;
+    padding: 1em;
+}
+
+.h4-contact{
+    color: #FD5200;
+    margin: 0.5em;
+}
+
+.contact-box{
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: (1, 1fr);
+    align-items: center;
+    text-align: center;
+}
+
+.field {
+    width: 20em;
+    padding: 0.5rem, 1rem;
+    outline: none;
+    border: 1.7px solid rgba(0, 0, 0, 0);
+    background-color: rgba(245, 245, 245, 0.6);
+    transition: 0.5s;
+    font-size: 1.1rem;
+    font-family: 'Baloo 2', sans-serif;
+}
+
+.field:hover{
+    border: #FD5200 1.7px solid;
+}
+
+.btn-send {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: rgba(240, 128, 60, 0.6);
+    font-family: 'Baloo 2', sans-serif;
+    cursor: pointer;
+    border: 1.7px solid rgba(0, 0, 0, 0);
+    transition: 0.5s;
+    color: #FD5200;
+}
+
+.btn-send:hover {
+    border: #FD5200 1.7px solid;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.error {
+    color: red;
+}
+
+.error-border{
+    border-bottom: 1px solid red;
+    border: 1.7px solid rgba(0, 0, 0, 0);
+}
+
+#success {
+    color: green;
+}

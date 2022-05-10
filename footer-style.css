@@ -1,0 +1,14 @@
+.footer {
+    background-color: #FD5200;
+    color: #000000;
+    padding: 0.5em;
+}
+
+.footer-list {
+    display: inline;
+}
+
+.footer-list-item {
+    display: inline-flex;
+    padding: .8em;
+}

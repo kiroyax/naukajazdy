@@ -1,0 +1,39 @@
+.Offer-section {
+    max-width: 50em;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.offer {
+    width: 300px;
+    text-align: justify;
+    font-size: 15px;
+    padding: 1em;
+    margin: 20px;
+    border: dotted rgba(0, 0, 0, 0) 2px;
+    transition: 0.5s;
+}
+
+.offer:hover {
+    border: dotted #FD5200 2px;
+    border-radius: 1em;
+}
+
+.offer-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:auto;
+    padding: 1.5em;
+    transition: 0.5s;
+    border-radius: 1em;
+}
+
+.offer-item {
+    text-align: center;
+    color: #F0803C;
+}
+
+.offer-image {
+    width: 300px;
+    border-radius: 1em;
+}

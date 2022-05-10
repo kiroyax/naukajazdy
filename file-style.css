@@ -1,0 +1,20 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', sans-serif;
+    color: #75704E;
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    color:#FD5200;
+    font-size: 2em;
+    text-align: center;
+}

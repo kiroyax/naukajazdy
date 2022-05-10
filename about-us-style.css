@@ -1,0 +1,35 @@
+.About-us-section {
+    margin: 1em;
+    text-align: justify;
+    background-color: white;
+    padding: 1em;
+    transition: 0.5s;
+    border-radius: 1em;
+    border-left: dotted #ffffff 2px;
+    border-right: dotted #ffffff 2px;
+}
+
+.About-us-section:hover {
+    background-color: #F5F5F5;
+    border-left: dotted #F0803C 2px;
+    border-right: dotted #F0803C 2px;
+}
+
+.About-us-section p {
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.about-us-image {
+    width: 350px;
+    height: 250px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 1.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1em;
+}

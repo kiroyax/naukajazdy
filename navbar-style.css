@@ -1,0 +1,25 @@
+.list-navbar {
+    margin: 0;
+}
+
+.navbar-item {
+    display: inline;
+}
+
+.navbar-item a {
+    display: inline-block;
+    color: #F0803C;
+    text-decoration: none;
+    padding: .5em;
+    transition: 0.5s;
+}
+
+.navbar-item a:hover {
+color: #FD5200;
+}
+
+.navbar {
+    font-size: 1.5em;
+    border-bottom: 1px solid #F0803C;
+    font-weight: lighter;
+}
