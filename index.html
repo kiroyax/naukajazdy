@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <title>Nauka jazdy BIS</title>
+    <meta name="description" content="Ośrodek Szkolenia Kierowców BIS to firma prosperująca od ponad 20 lat. W ofercie można znaleźć kursy prawa jazdy na wszystkie kategorie oraz kursy zawodowych kierowców.">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Baskervville&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Baloo+2&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./styles/about-us-style.css">
+    <link rel="stylesheet" href="./styles/contact-style.css">
+    <link rel="stylesheet" href="./styles/file-style.css">
+    <link rel="stylesheet" href="./styles/footer-style.css">
+    <link rel="stylesheet" href="./styles/main-header-style.css">
+    <link rel="stylesheet" href="./styles/navbar-style.css">
+    <link rel="stylesheet" href="./styles/offer-style.css">
+    <link rel="stylesheet" href="./styles/back-to-top-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <ul class="list-navbar">
+                <li class="navbar-item">
+                    <a href="#">
+                        <img src="images/house-fill.svg" width="25px">
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#About-us-section">O nas</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#Offer-section">Oferta</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#Contact-section">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="h1-title" >Ośrodek Szkolenia Kierowców BIS</h1>
+    </header>
+
+    <section class="About-us-section container" id="About-us-section">
+        <h2 class="section-title">O nas</h2>
+        <img class="about-us-image"src="images/driver.jpeg">
+        <p>
+            Nasza firma znajduje się na rynku od ponad 20 lat. Oferujemy kursy prawa jazdy z zakresu kategorii 
+            B, BE, C, CE, D, T oraz kursy zawodowych kierowców. Serdecznie zapraszamy do zapoznania się z ofertą. 
+            W razie dodatkowych pytań, prosimy o kontakt telefoniczny bądź mailowy. 
+            Chętnie odpowiemy na wszystkie pytania. Gwarantujemy uczciwe i rzetelne wykonanie usługi. 
+            Nasi instruktorzy posiadają duże doświadczenie 
+            Potwierdzają to nasi zadowoleni kursanci polecając naszą szkołę jazdy. Zapraszamy do zapoznania
+            się z naszą ofertą.
+        </p>
+    </section>
+
+    <section class="Offer-section" id="Offer-section">
+        <h2 class="section-title">Oferta</h2>
+        <div class="offer-list">
+            <div class="offer">
+                <img class="offer-image" src="images/kia-rio.jpg">
+                <h3 class="offer-item">Kurs prawa jazdy kat. B</h3>
+                <p>Kurs objemuje 30 godzin zajęć teoretycznych oraz 30 godzin zajęć praktycznych.
+                    <br>
+                    <b>Cena kursu: 2700 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/kia-rio.jpg">
+                <h3 class="offer-item">Dodatkowe szkolenie kat. B</h3>
+                <p>Dodatkowe szkolenie to możliwość wykupienia zajęć praktycznych.
+                    Jedno spotkanie trwa 2 godziny.
+                    <br>
+                    <b>Cena za godzinę: 90 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/ford-galaxy.jpg">
+                <h3 class="offer-item">Kurs prawa jazdy kat. BE</h3>
+                <p>Kurs obejmuje 15 godzin zajęć praktycznych.
+                    <br>
+                    <b>Cena kursu: 1500 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img  class="offer-image" src="images/ford-galaxy.jpg">
+                <h3 class="offer-item">Dodatkowe szkolenie kat. BE</h3>
+                <p>Dodatkowe szkolenie to możliwość wykupienia zajęć praktycznych.
+                    Jedno spotkanie trwa 2 godziny.
+                    <br>
+                    <b>Cena za godzinę: 100 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/man-tgl.jpg">
+                <h3 class="offer-item">Kurs prawa jazdy kat. C</h3>
+                <p>Kurs obejmuje 20 godzin zajęć teoretycznych oraz 30 godzin zajęć praktycznych.
+                    <br>
+                    <b>Cena kursu: 3900 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/man-tgl.jpg">
+                <h3 class="offer-item">Dodatkowe szkolenie kat. C</h3>
+                <p>Dodatkowe szkolenie to możliwość wykupienia zajęć praktycznych.
+                    Jedno spotkanie trwa 2 godziny.
+                    <br>
+                    <b>Cena za godzinę: 130 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/man-tgl.jpg">
+                <h3 class="offer-item">Kurs prawa jazdy kat. CE</h3>
+                <p>Kurs obejmuje 25 godzin zajęć praktycznych.
+                    <br>
+                    <b>Cena kursu: 3800 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/man-tgl.jpg">
+                <h3 class="offer-item">Dodatkowe szkolenie kat. CE</h3>
+                <p>Dodatkowe szkolenie to możliwość wykupienia zajęć praktycznych.
+                    Jedno spotkanie trwa 2 godziny.
+                    <br>
+                    <b>Cena za godzinę: 140 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/irisbus.jpg">
+                <h3 class="offer-item">Kurs prawa jazdy kat. D (po B)</h3>
+                <p>Kurs obejmuje 20 godzin zajęć teoretycznych oraz 60 godzin zajęć praktycznych.
+                    <br>
+                    <b>Cena kursu: 6000 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/irisbus.jpg">
+                <h3 class="offer-item">Kurs prawa jazdy kat. D (po C)</h3>
+                <p>Kurs obejmuje 20 godzin zajęć teoretycznych oraz 40 godzin zajęć praktycznych.
+                    <br>
+                    <b>Cena kursu: 5000 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/irisbus.jpg">
+                <h3 class="offer-item">Dodatkowe szkolenie kat. D</h3>
+                <p>Dodatkowe szkolenie to możliwość wykupienia zajęć praktycznych.
+                    Jedno spotkanie trwa 2 godziny.
+                    <br>
+                    <b>Cena za godzinę: 130 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/tachograf.jpg">
+                <h3 class="offer-item">Szkolenie okresowe</h3>
+                <p>Kurs obejmuje 35 godzin zajęć teoretycznych. Do wyboru są bloki tematyczne na przewóz osób
+                    lub przewóz rzeczy. Kurs prowadzony jest w formie e-learningu.
+                    <br>
+                    <b>Cena kursu: 500 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/driver.jpeg">
+                <h3 class="offer-item">Kwalifikacja wstępna</h3>
+                <p>Kurs obejmuje ??? godzin zajęć teoretycznych oraz ??? godzin zajęć praktycznych.
+                    Do wyboru są bloki tematyczne na przewóz osób lub przewóz rzeczy. 
+                    Kurs prowadzony jest w formie e-learningu i przeznaczony jest dla kierowców 
+                    w wieku od 21 do 23 lat.
+                    <br>
+                    <b>Cena kursu: 3000 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/driver.jpeg">
+                <h3 class="offer-item">Kwalifikacja wstępna  przyspieszona</h3>
+                <p>Kurs obejmuje ??? godzin zajęć teoretycznych oraz ??? godzin zajęć praktycznych.
+                    Do wyboru są bloki tematyczne na przewóz osób lub przewóz rzeczy. 
+                    Kurs prowadzony jest w formie e-learningu i przeznaczony jest dla kierowców 
+                    powyżej 23 roku życia.
+                    <br>
+                    <b>Cena kursu: 2800 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/driver.jpeg">
+                <h3 class="offer-item">Kwalifikacja wstępna  przyspieszona uzupełniająca</h3>
+                <p>Kurs obejmuje ??? godzin zajęć teoretycznych oraz ??? godzin zajęć praktycznych.
+                    Do wyboru są bloki tematyczne na przewóz osób lub przewóz rzeczy. 
+                    Kurs prowadzony jest w formie e-learningu i przeznaczony jest dla kierowców posiadających
+                    już jeden z kursów na przewóz rzeczy lub osób oraz w wieku powyżej 23 lat.
+                    <br>
+                    <b>Cena kursu: 1200 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/driver.jpeg">
+                <h3 class="offer-item">Kwalifikacja wstępna uzupełniająca</h3>
+                <p>Kurs obejmuje ??? godzin zajęć teoretycznych oraz ??? godzin zajęć praktycznych.
+                    Do wyboru są bloki tematyczne na przewóz osób lub przewóz rzeczy. 
+                    Kurs prowadzony jest w formie e-learningu i przeznaczony jest dla kierowców posiadających
+                    już jeden z kursów na przewóz rzeczy lub osób oraz w wieku od 21 do 23 lat.
+                    <br>
+                    <b>Cena kursu: 1200 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/driver.jpeg">
+                <h3 class="offer-item">Pakiet kat. C + kat. CE</h3>
+                <p>Pakiet obejmuje kurs prawa jazdy kategorii C oraz kategorii CE
+                    <br>
+                    <b>Cena w pakiecie: 6600 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/driver.jpeg">
+                <h3 class="offer-item">Pakiet kat. C + kat. CE + Kwalifikacja wstępna przyspieszona</h3>
+                <p>Pakiet obejmuje kurs prawa jazdy kategorii C i CE oraz kurs kwalifikacji wstępnej
+                    przyspieszonej na przewóz rzeczy.
+                    <br>
+                    <b>Cena w pakiecie: 8500 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/driver.jpeg">
+                <h3 class="offer-item">Pakiet kat. D (po B) + Kwalifikacja wstępna przyspieszona</h3>
+                <p>Pakiet obejmuje kurs prawa jazdy kategorii D (po B) oraz kurs kwalifikacji wstępnej
+                    przyspieszonej na przewóz osób.
+                    <br>
+                    <b>Cena w pakiecie: 9600 zł</b>
+                </p>
+            </div>
+            <div class="offer">
+                <img class="offer-image" src="images/driver.jpeg">
+                <h3 class="offer-item">Pakiet kat. D (po C) + Kwalifikacja wstępna przyspieszona uzupełniająca</h3>
+                <p>Pakiet obejmuje kurs prawa jazdy kategorii D (po C) oraz kurs kwalifikacji wstępnej
+                    przyspieszonej uzupełniającej na przewóz osób.
+                    <br>
+                    <b>Cena w pakiecie: ??? zł</b>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact-section" id="Contact-section">
+        <h2 class="section-title">Kontakt</h2>
+        <div class="contact-list">
+            <div class="contact-item">
+                <h4 class="h4-contact">Adres:</h4>
+                ul. Opolska 140 bud. F<br>
+                (wjazd od ul. Tyskiej 5)<br>
+                52-014 Wrocław<br>
+                <img class="contact-image"src="images/area.png">
+            </div>
+            <div class="contact-item">
+                <h4 class="h4-contact">Telefon:</h4>
+                +48 604 192 180<br>
+                +48 604 192 280<br>
+                <h4 class="h4-contact">E-mail:</h4>
+                naukajazdybis@gmail.com<br>
+                <img class="contact-image"src="images/send-message.png">
+            </div>
+            <div class="contact-item">
+                <h4 class="h4-contact">Godziny otwarcia:</h4>
+                <b>Poniedziałek: </b>09:00-16:00<br>
+                <b>Wtorek: </b>09:00-16:00<br>
+                <b>Środa: </b>09:00-16:00<br>
+                <b>Czwartek: </b>09:00-16:00<br>
+                <b>Piątek: </b>09:00-16:00<br>
+                <b>Sobota: </b>nieczynne<br>
+                <b>Niedziela: </b>nieczynne
+                <br>
+                <img class="contact-image" src="images/open.png" width="50px">
+            </div>
+            <div class = "contact-item">
+                <div id = "map" class="map"></div>
+            </div>
+            <script src="./script/map.js"></script>
+            <div class="contact-item ">
+                <h4 class="h4-contact">Dane do przelewu:</h4>
+                Ośrodek Szkolenia Kierowców BIS s.c.<br>
+                S. Doroszko, B. Ćwiklak<br>
+                Osiedle Piastowskie 2/3/2<br>
+                57-400 Nowa Ruda<br>
+                NIP: 885-15-37-230<br>
+                <b>Nr rachunku:</b><br>
+                60 9574 1028 2002 0101 7836 0001<br><br>
+                <b>W tytule przelewu prosimy wpisać
+                <br>
+                imię, nazwisko oraz<br>
+                za co dokonywany jest przelew.</b>
+            </div>
+            <form action="https://formsubmit.co/cwiklak.a.j@gmail.com" method="POST" onsubmit="event.preventDefault(); validateForm()" class="contact-box contact-item">
+                    <h4 class="h4-contact">Masz pytanie?</h4>
+                    <input type="text" class="field" id="name" placeholder="Twoje imię">
+                    <small class="error"></small>
+                    <input type="email" class="field" id="email" placeholder="Twój adres e-mail">
+                    <small class="error"></small>
+                    <textarea class="field" id="message" placeholder="Twoja wiadomość" rows="5"></textarea>
+                    <small class="error"></small>
+                    <button class="btn-send">Wyślij</button>
+                    <p id="success"></p>
+            </form>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script src="script/contact-form.js"></script>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h3 class="footer-title">Nauka jazdy BIS</h3>
+        <ul class="footer-list">
+            <li class="footer-list-item"> <img src="images/Smartphone-icon.png" height="25px">
+                Telefon: <br>
+                +48 604 192 180 <br>
+                +48 604 192 280
+            </li>
+            <li class="footer-list-item"> <img src="images/Email-icon.png" height="25px">
+                E-mail: <br>
+                naukajazdybis@gmail.com
+            </li>
+        </ul>
+    </footer>
+
+    <a href="#top" class="back-to-top" id="back-to-top">
+        <span> &#8593; </span>
+    </a>
+    <script src="./script/back-to-top-btn.js"></script>
+</body>
+</html>
